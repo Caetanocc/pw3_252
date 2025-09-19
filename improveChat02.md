@@ -1,12 +1,20 @@
 1. Acessar **LoginPage.jsx** , forçar página inicial ir sempre pra "/",  incluir comando 
 
+incluir no inicio da página:
+```
+import { useNavigate } from 'react-router-dom';         
+```
+incluir após a const [error,setError] :
+```
+const navigate = useNavigate()
+``` 
 incluir dentro de     **function handleSignIn(e){** quando user é logado com sucesso.
 
 ```
             navigate('/'); // redireciona para a home após login
 ```
 
-após o usuario ser logado com sucesso, na **function handleSignIn(e)**
+após o usuario ser logado com sucesso, na **function handleLogin(e)**
 e também na function **handleGoogleLogin = async(e)**
 
 
