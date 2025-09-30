@@ -37,7 +37,7 @@ npm install react-router-dom
 
 ## 3. Melhorar o Projeto com Sessão de Usuário
 
-Utilize o usuário GitHub: `caetano1973`
+
 
 ---
 
